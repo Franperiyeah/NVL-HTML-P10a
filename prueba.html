@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<form method="post" action="miservidor.php">
+    <div>
+      <label for=”nombre”>Código postal:</label>
+      <input id=”nombre” type=”text”>
+    </div>
+    <div>
+     <label for=”satisfaccion”>Nivel de satisfacción:</label>
+      <select id=”satisfaccion”>
+        <option value=”1”>1</option>
+        <option value=”2”>2</option>
+        <option value=”3”>3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+    </div>
+    <div>
+      <label for=”email”>Email:</label>
+      <input id=”email” type=”text”>
+    </div>
+    <div>
+     <label for=”positivo”>Puntos positivos del producto:</label>
+ </div>
+	<div> 
+    <textarea id=”positivo”></textarea>
+    </div>
+    <div>
+     <label for=”negativo”>Puntos negativos del producto:</label>
+ </div>
+	<div> 
+    <textarea id=”negativo”></textarea>
+    </div>
+   <div>
+     <label for=”formulario”>Valoración de formulario:</label>
+      <select id=”formulario”>
+        <option value=”excelente”>excelente</option>
+        <option value=”bueno”>bueno</option>
+        <option value=”regular”>pésimo</option>
+  </div>
+  <div>
+  <input type=”submit” value=”Enviar”> 
+  </div>
+</form>
+</body>
+</html>
